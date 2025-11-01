@@ -11,3 +11,14 @@
 // }
 
 
+//check number is positibve or negetive or zero
+ function number(num){
+    if(num>0){
+        return "number is postive"
+    }else if(num<0) {
+        return "number is negetive"
+    }
+    return "Zero"
+
+ }
+ console.log(number(-6))
